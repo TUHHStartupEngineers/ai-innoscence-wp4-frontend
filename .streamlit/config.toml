@@ -1,0 +1,30 @@
+# Streamlit Configuration
+# AI-InnoScEnCE Branding - Light Theme
+# Configured for embedding on ai-innoscence.eu
+
+[theme]
+# Primary color - Turquoise (for buttons, links, accents)
+primaryColor = "#00BCD4"
+
+# Background color - Pure white
+backgroundColor = "#FFFFFF"
+
+# Secondary background color - Light gray (sidebar, cards)
+secondaryBackgroundColor = "#F5F5F5"
+
+# Text color - Dark blue for readability
+textColor = "#1e3a5f"
+
+# Font family
+font = "sans serif"
+
+[server]
+# Disable XSRF protection for embedding
+enableXsrfProtection = false
+
+# Disable CORS for embedding
+enableCORS = false
+
+[browser]
+# Disable usage stats
+gatherUsageStats = false
