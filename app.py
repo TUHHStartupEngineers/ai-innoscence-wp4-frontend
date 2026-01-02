@@ -452,6 +452,16 @@ def main():
     elif selected_tab == "About":
         show_about(df, relationships_df, clusters_df, insights_df)
 
+    # EU Funding acknowledgment footer
+    st.markdown("---")
+    st.markdown(
+        '<p style="text-align: center; color: #666; font-size: 0.85rem;">'
+        'This project has received funding from the European Union\'s Horizon Europe '
+        'research and innovation programme and is part of the EIT HEI Initiative. '
+        '</p>',
+        unsafe_allow_html=True
+    )
+
 def show_entities_browser(df):
     """Browse all ecosystem entities by role"""
     st.header("Ecosystem Entities")
